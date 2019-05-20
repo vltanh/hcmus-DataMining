@@ -1,0 +1,14 @@
+Within cluster sum of squared errors: 149.59983186212713
+Cluster centroids:
+                     Cluster #
+Attribute               0            1
+                     (39)         (61)
+=======================================
+Home               0.2051       0.8525
+Products           0.9231       0.5902
+Search             0.4359       0.4262
+Prod_A             0.1282       0.7869
+Prod_B             0.9744       0.2787
+Prod_C             0.6154       0.3443
+Cart               0.3846       0.7541
+Purchase           0.2308       0.4918

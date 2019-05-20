@@ -1,0 +1,51 @@
+=== Run information ===
+
+Scheme:weka.clusterers.SimpleKMeans -N 2 -A "weka.core.EuclideanDistance -R first-last" -I 500 -S 3698
+Relation:     sessions
+Instances:    100
+Attributes:   8
+              Home
+              Products
+              Search
+              Prod_A
+              Prod_B
+              Prod_C
+              Cart
+              Purchase
+Test mode:evaluate on training data
+
+=== Model and evaluation on training set ===
+
+
+kMeans
+======
+
+Number of iterations: 3
+Within cluster sum of squared errors: 227.0
+Missing values globally replaced with mean/mode
+
+Cluster centroids:
+                         Cluster#
+Attribute    Full Data          0          1
+                 (100)       (61)       (39)
+============================================
+Home                 1          1          0
+Products             1          1          1
+Search               0          0          0
+Prod_A               1          1          0
+Prod_B               1          0          1
+Prod_C               0          0          1
+Cart                 1          1          0
+Purchase             0          0          0
+
+
+
+
+Time taken to build model (full training data) : 0 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0       61 ( 61%)
+1       39 ( 39%)
